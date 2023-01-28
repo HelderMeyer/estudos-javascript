@@ -1,0 +1,9 @@
+body {
+    background-color: #3b9f9e;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    font: normal 2vw Arial;
+}
