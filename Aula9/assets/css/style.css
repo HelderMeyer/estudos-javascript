@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+div#area {
+    background-color: #5397f7;
+    font: normal 15pt Arial;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
