@@ -1,0 +1,11 @@
+body{
+    background-color: #000000;
+    position: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: normal 15pt Arial;
+    color: #ffffff;
+}
+div#resultado {
+    margin-top: 30px;
+}
