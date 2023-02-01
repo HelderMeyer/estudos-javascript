@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aquamarine;
+    font: normal 18pt Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#resultado{
+    margin-top: 50px;
+}
+.vermelho{
+    color: red;
+}
+.verde{
+    color: green;
+}
