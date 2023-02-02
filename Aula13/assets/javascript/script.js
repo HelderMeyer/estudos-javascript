@@ -5,12 +5,14 @@ let enviar = document.getElementById('botao')
 enviar.addEventListener('click', dizerNacionalidade)
 
 function dizerNacionalidade(){
-    if(selecao.value == 'Brasil'){
-        resposta.innerHTML = `Você é brasileiro!`
-    }else if(selecao.value == 'None'){
+    if(selecao.value != 'None'){
+        if(selecao.value == 'Brasil'){
+            resposta.innerHTML = `Você é brasileiro!`
+        }else{
+            resposta.innerHTML = `Você é estrangeiro!`
+        }
+    }else{
         resposta.innerHTML = `Nenhuma opção escolhida!`
-    }else if(selecao.value != 'Brasil' && selecao.value != 'None'){
-        resposta.innerHTML = `Você é estrangeiro!`
     }
     console.log(selecao.value)
 }
