@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #009f6a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font: normal 15pt Arial;
+}
+label{
+    margin-top: 50px;
+    font: normal 15pt Arial;
+}
+input#nome{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-color: white;
+}
+input#botao__enviar, #botao__limpar{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-color: white;
+}
+.botoes__input{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+#quadrado{
+    background-color: aquamarine;
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    font: normal 15pt Arial;
+}
+
