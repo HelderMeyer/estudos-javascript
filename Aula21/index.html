@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento: 
+                <input type="number" name="ano__nascimento" id="ano__nascimento" min="1900" max="2023"> 
+            </p>
+            <p>Sexo: 
+                <input type="radio" name="sexo" id="masculino" checked>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="sexo" id="feminino">
+                <label for="feminino">Feminino</label>  
+            </p>
+            <p>
+                <input type="button" value="Verificar" id="botao__verificar">
+            </p>
+        </div>
+        <div id="resultado">
+            <p id="p0">Preencha os dados acima para ver o resultado!</p>
+            <p id="p1"></p>
+            <p id="p2"></p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Hytekers</p>
+    </footer>
+    <script src="assets/javascript/script.js"></script>
+</body>
+</html>
