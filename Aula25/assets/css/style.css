@@ -22,3 +22,9 @@ footer{
 #resultado{
     margin-top: 20px;
 }
+#botao{
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-color: white;
+}
