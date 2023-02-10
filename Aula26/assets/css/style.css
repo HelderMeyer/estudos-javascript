@@ -1,0 +1,45 @@
+body{
+    background-color: #468eec;
+    font: normal 15pt Arial;
+}
+header{
+    color: #ffffff;
+    text-align: center;
+}
+section{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px #00000092;
+}
+footer{
+    color: #ffffff;
+    text-align: center;
+    font-style: italic;
+}
+#resultado{
+    margin-top: 20px;
+}
+#botao{
+    border-radius: 5px;
+    padding: 2px 20px;
+    border-color: white;
+}
+#dados{
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+#resultado{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tabuada{
+    width: 200px;
+}
