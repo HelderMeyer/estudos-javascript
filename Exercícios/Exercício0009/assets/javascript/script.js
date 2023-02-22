@@ -8,3 +8,28 @@ let carros = [
 
 carros.sort((a, b) => a.ano - b.ano)
 console.log(carros)
+
+/*let carrosGrandes = carros.filter((item) => {
+    return item.marca.length > 4
+})
+console.log(carrosGrandes)*/
+
+let ok = carros.every((item) => {
+    return item.marca.length > 4
+})
+
+if(ok){
+    console.log('Todos possuem mais de 4 caracteres!')
+}else{
+    console.log('Nem todos possuem mais de 4 caracteres!')
+}
+
+let ok2 = carros.some((item) => {
+    return item.marca.length > 4
+})
+
+if(ok2){
+    console.log('Alguns possuem mais de 4 caracteres!')
+}else[
+    console.log('Nenhuma marca possui mais de 4 caracteres!')
+]
