@@ -11,26 +11,27 @@
     <div class="fightarea">
         <div id="char">
             <div class="lifebar">
-                <div class="bar" style="width: 10%;"></div>
+                <div class="bar" id="barChar" style="width: 10%;"></div>
             </div>
             <strong class="name" id="nameChar">--</strong>
             <div>
-                <button class="attackButton">Atacar</button>
+                <button class="attackButton" id="attackButtonFighter1">Atacar</button>
             </div>
         </div>
         <div id="monster">
             <div class="lifebar">
-                <div class="bar" style="width: 10%;"></div>
+                <div class="bar" id="barMonster" style="width: 10%;"></div>
             </div>
             <strong class="name" id="nameMonster">--</strong>
             <div>
-                <button class="attackButton">Atacar</button>
+                <button class="attackButton" id="attackButtonFighter2">Atacar</button>
             </div>
         </div>
     </div>
-    <ul class="log">
+    <ul id="log">
 
     </ul>
+    <button style="display: none;" id="buttonResetGame">Resetar</button>
     <script src="assets/javascript/classes.js"></script>
     <script src="assets/javascript/script.js"></script>
 </body>
